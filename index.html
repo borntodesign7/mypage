@@ -51,12 +51,12 @@
         <script async src="./prebid3.24.0.js"></script>
         <script>
             var sizes = [
-                [300, 250]
+                [468, 60]
             ];
             var PREBID_TIMEOUT = 1000;
             var FAILSAFE_TIMEOUT = 3000;
 
-                var adUnits = [
+ var adUnits = [
         {
             code: '/19968336/header-bid-tag-0',
             mediaTypes: {
@@ -67,15 +67,14 @@
             bids: [{
                 bidder: '1ad4good',
                 params: {
-                    placementId: 13144370
+                    placementId: 13144370,
+                    cpm: 0.50
                 }
             }]
         }
     ];
-
+    
         </script>
-
-
 
 
   </head>

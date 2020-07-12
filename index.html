@@ -10,20 +10,22 @@
                 [300, 250]
             ];
         	var PREBID_TIMEOUT = 1000;            
-			var adUnits = [{
-                code: 'postbid_iframe',
-                mediaTypes: {
-                    banner: {
-                        sizes: sizes
-                    }
-                },
-                bids: [{
-                    bidder: 'appnexus',
-                    params: {
-                        placementId: 13144370
-                    }
-                }]
-            }];
+			  var adUnits = [
+        {
+            code: '/19968336/header-bid-tag-0',
+            mediaTypes: {
+                banner: {
+                    sizes: div_1_sizes
+                }
+            },
+            bids: [{
+                bidder: '1ad4good',
+                params: {
+                    placementId: 13144370
+                }
+            }]
+        }
+    ];
             
             var pbjs = pbjs || {};
             pbjs.que = pbjs.que || [];
